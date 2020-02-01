@@ -33,3 +33,52 @@ global.allnotes[20] = piano_Ab1;
 global.allnotes[21] = piano_A1;
 global.allnotes[22] = piano_Bb1;
 global.allnotes[23] = piano_B1;
+//Scale Lists
+global.allScales = [];
+global.allScales[0] = "Major";
+global.allScales[1] = "Minor";
+
+// All notes map
+
+sharpNotesMap = ds_map_create();
+global.sharpNotes = [];
+global.sharpNotes[0] = "C";
+global.sharpNotes[1] = "C#";
+global.sharpNotes[2] = "D";
+global.sharpNotes[3] = "D#";
+global.sharpNotes[4] = "E";
+global.sharpNotes[5] = "F";
+global.sharpNotes[6] = "F#";
+global.sharpNotes[7] = "G";
+global.sharpNotes[8] = "G#";
+global.sharpNotes[9] = "A";
+global.sharpNotes[10] = "A#";
+global.sharpNotes[11] = "B";
+
+
+//Flat notes map 
+flatNotesMap = ds_map_create();
+global.flatNotes = [];
+global.flatNotes[0] = "C";
+global.flatNotes[1] = "Db";
+global.flatNotes[2] = "D";
+global.flatNotes[3] = "Eb";
+global.flatNotes[4] = "E";
+global.flatNotes[5] = "F";
+global.flatNotes[6] = "Gb";
+global.flatNotes[7] = "G";
+global.flatNotes[8] = "Ab";
+global.flatNotes[9] = "A";
+global.flatNotes[10] = "Bb";
+global.flatNotes[11] = "B";
+
+// Iterate to map each note string to the note object
+for(i=0; i<12; i++){
+	ds_map_add(sharpNotesMap, global.sharpNotes[i]+"0", global.allnotes[i]);
+	ds_map_add(flatNotesMap, global.flatNotes[i]+"0", global.allnotes[i]);
+	ds_map_add(sharpNotesMap, global.sharpNotes[i]+"1", global.allnotes[i+12]);
+	ds_map_add(flatNotesMap, global.flatNotes[i]+"1", global.allnotes[i+12]);
+}
+
+//CurrentScale array after randomization
+global.currentScale=[];
