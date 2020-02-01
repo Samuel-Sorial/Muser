@@ -47,6 +47,30 @@
             }
         },
         {
+            "Key": "09df41d9-dd2a-406e-a2bb-25e22e3ef472",
+            "Value": {
+                "id": "abc88fe4-e178-4cd3-9f69-f3dbe4ebde2a",
+                "resourcePath": "objects\\oMusicPlayer\\oMusicPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "14a075b0-268c-4cba-bd3c-87cb205cd688",
+            "Value": {
+                "id": "61f64340-a336-4248-9285-1a524df1dc52",
+                "resourcePath": "sounds\\piano_F\\piano_F.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "166cf8fb-1107-4dbf-ab35-0a96fe76284c",
+            "Value": {
+                "id": "4f44e90e-fc40-4acd-892d-faa68b281aca",
+                "resourcePath": "objects\\oMenuUI\\oMenuUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16e46cf5-ca63-451c-a53d-fa97f39ba1e4",
             "Value": {
                 "id": "0f26c0b3-d869-4c66-a38c-bb76d2038b27",
@@ -87,11 +111,43 @@
             }
         },
         {
+            "Key": "3dc77a85-4bf8-4f3e-b047-6f78f8377b6b",
+            "Value": {
+                "id": "eb01a7df-6eac-4a83-81dd-88f859eaff6c",
+                "resourcePath": "scripts\\slideTransition\\slideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "40d8a1da-2d47-4ee6-b8e9-baf5623dce93",
+            "Value": {
+                "id": "aad4925f-df96-40a7-a458-6dc62d62a404",
+                "resourcePath": "sounds\\piano_Gb\\piano_Gb.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "426be874-d5fb-4b7c-b813-8db3b96fb3f7",
+            "Value": {
+                "id": "89b2671e-ed58-4a2c-9111-3d30f50f0956",
+                "resourcePath": "sounds\\piano_B\\piano_B.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "49e2d25e-cd1e-4d35-a8ef-eb901dc43b22",
             "Value": {
                 "id": "8d9b7138-abae-48a7-941f-623b00fb7a76",
                 "resourcePath": "views\\49e2d25e-cd1e-4d35-a8ef-eb901dc43b22.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a67f21b-4952-4267-9634-e2e7c399e3c9",
+            "Value": {
+                "id": "7bd184e0-3de6-4de0-9ea4-ab0d061106ef",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -111,11 +167,27 @@
             }
         },
         {
+            "Key": "6d3670ad-36e2-4843-a964-23962ae7c54f",
+            "Value": {
+                "id": "6127511c-f520-4e0f-8564-ba41f2c052d3",
+                "resourcePath": "sounds\\piano_A\\piano_A.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6ec08382-4784-437c-b663-6c6065f9c696",
             "Value": {
                 "id": "63b86040-b22e-4840-8975-8244c8090cd6",
                 "resourcePath": "objects\\oTile_tmp\\oTile_tmp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71a71699-bd30-43f6-b968-b9c444eb90b8",
+            "Value": {
+                "id": "0da9e05d-766d-4a13-8c1d-ce542814bf67",
+                "resourcePath": "sounds\\piano_E\\piano_E.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -143,6 +215,14 @@
             }
         },
         {
+            "Key": "86d0cdc6-04ff-4c35-9ddd-7b6ba4fc1a93",
+            "Value": {
+                "id": "c57b8248-b2b6-448c-9f7c-52bdc24c68e7",
+                "resourcePath": "sounds\\piano_Eb\\piano_Eb.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "877158ff-844b-47d6-a36e-8f42d396c234",
             "Value": {
                 "id": "628100a2-e1d9-44e8-b6ba-800116e977dd",
@@ -156,6 +236,14 @@
                 "id": "66f7adbc-7885-4e46-bf52-85f22b79e455",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "92a1c11b-da74-4e2e-9d96-60799dfe8fd4",
+            "Value": {
+                "id": "74d7320f-95a1-41fa-84d6-ef3b2be9b6e0",
+                "resourcePath": "sounds\\piano_G\\piano_G.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -183,11 +271,27 @@
             }
         },
         {
+            "Key": "b1b4daa6-d482-4eae-a795-9e07edbbab45",
+            "Value": {
+                "id": "114dfa34-bf1a-4f9d-9a87-4bb9d06152b0",
+                "resourcePath": "sounds\\piano_Bb\\piano_Bb.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b5f0f9f7-44ba-4c57-8aae-ea66b33989b4",
             "Value": {
                 "id": "67d153da-e899-45a8-852b-bf68ff10fd21",
                 "resourcePath": "views\\b5f0f9f7-44ba-4c57-8aae-ea66b33989b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "baec7048-ff7a-491a-a9e9-0404e3c53957",
+            "Value": {
+                "id": "efd9b598-a3ce-45d1-952c-77d8f61ab23d",
+                "resourcePath": "sounds\\piano_C\\piano_C.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -199,11 +303,43 @@
             }
         },
         {
+            "Key": "d972af8e-4be0-438e-8216-b03bae865183",
+            "Value": {
+                "id": "cea40a20-2fee-4857-8251-75cad521ebdc",
+                "resourcePath": "sounds\\piano_D\\piano_D.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e18ebe7f-f557-4a18-8ac5-808393b49af6",
             "Value": {
                 "id": "fe7867ce-b65e-45fd-9259-7ce59a12c423",
                 "resourcePath": "sprites\\sContainer\\sContainer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1c0834f-92fa-423c-b3b1-8b1773c5514c",
+            "Value": {
+                "id": "8779d233-4aed-4ebb-b36f-4b7095066488",
+                "resourcePath": "rooms\\MainMenu\\MainMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e820148c-d0f3-4c44-9d7f-03db269be585",
+            "Value": {
+                "id": "8fb8f826-a91e-40b3-a85c-0a408fcf092d",
+                "resourcePath": "sounds\\piano_Ab\\piano_Ab.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ea667004-6780-439d-8200-50ded6dfa467",
+            "Value": {
+                "id": "0637d275-8d27-446b-9b5a-3f3b61161e7a",
+                "resourcePath": "sounds\\piano_Db\\piano_Db.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -264,7 +400,8 @@
         }
     ],
     "script_order": [
-        "5b0b335f-9990-437e-b38b-47e805a40261"
+        "5b0b335f-9990-437e-b38b-47e805a40261",
+        "3dc77a85-4bf8-4f3e-b047-6f78f8377b6b"
     ],
     "tutorial": ""
 }
