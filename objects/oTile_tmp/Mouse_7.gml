@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+scaleGenerator();
+shuffleScale();
 global.mouse_grabbed = noone;
 depth = -10;
 sprite_index = sTile_Idle;

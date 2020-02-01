@@ -21,7 +21,7 @@ global.allnotes[8] = piano_Ab;
 global.allnotes[9] = piano_A;
 global.allnotes[10] = piano_Bb;
 global.allnotes[11] = piano_B;
-global.allnotes[12] = piano_C1;
+/*global.allnotes[12] = piano_C1;
 global.allnotes[13] = piano_Db1;
 global.allnotes[14] = piano_D1;
 global.allnotes[15] = piano_Eb1;
@@ -32,7 +32,19 @@ global.allnotes[19] = piano_G1;
 global.allnotes[20] = piano_Ab1;
 global.allnotes[21] = piano_A1;
 global.allnotes[22] = piano_Bb1;
-global.allnotes[23] = piano_B1;
+global.allnotes[23] = piano_B1;*/
+global.allnotes[12] = piano_C;
+global.allnotes[13] = piano_Db;
+global.allnotes[14] = piano_D;
+global.allnotes[15] = piano_Eb;
+global.allnotes[16] = piano_E;
+global.allnotes[17] = piano_F;
+global.allnotes[18] = piano_Gb;
+global.allnotes[19] = piano_G;
+global.allnotes[20] = piano_Ab;
+global.allnotes[21] = piano_A;
+global.allnotes[22] = piano_Bb;
+global.allnotes[23] = piano_B;
 //Scale Lists
 global.allScales = [];
 global.allScales[0] = "Major";
@@ -81,4 +93,12 @@ for(i=0; i<12; i++){
 }
 
 //CurrentScale array after randomization
-global.currentScale=[];
+global.generatedScale=[];
+global.shuffledScale=[];
+
+//levels
+global.levelNames = [];
+global.levelNames[0] = "Beginner";
+global.levelNames[1] = "Intermediate";
+global.levelNames[2] = "Advanced";
+global.levelNames[3] = "Insane";

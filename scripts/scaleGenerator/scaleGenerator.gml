@@ -35,4 +35,6 @@ if(scaleNum==0){
 for(i=0; i<8; i++){
 	outputList[i] = rootNum + spacing[i];
 }
-global.currentScale = outputList;
+global.generatedScale = outputList;
+for(i=0;i<8;i++){
+}
