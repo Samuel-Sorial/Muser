@@ -3,7 +3,7 @@
 /// @arg targetroom sets target room when using the goto mode.
 
 with(oTransition){
-	global.leaveLevel = false;
+	global.leaveScreen = false;
 	mode = argument[0];
 	if(argument_count > 1){
 		target = argument[1]

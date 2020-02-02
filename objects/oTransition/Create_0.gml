@@ -16,4 +16,5 @@ percent = 1;
 target = room;
 
 depth = -100;
-isFullscreen = false;
+
+window_set_caption("Muser");

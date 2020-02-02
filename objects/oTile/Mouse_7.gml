@@ -1,0 +1,14 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+global.mouse_grabbed = noone;
+depth = -10;
+
+with(oContainer){
+	if(place_meeting(x,y, other) && !isOccupied){
+		isOccupied = !isOccupied;
+		occupiedBy = other;
+		other.x = x;
+		other.y = y;
+	}
+}

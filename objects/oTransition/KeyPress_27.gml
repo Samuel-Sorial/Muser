@@ -1,3 +1,4 @@
-/// @desc Return to Menu
+/// @desc Return to previous screen
 
-slideTransition(TRANS_MODE.GOTO, MainMenu);
+if room == rLevelSelect slideTransition(TRANS_MODE.GOTO, rMainMenu);
+if room == rGameSpace slideTransition(TRANS_MODE.GOTO, rLevelSelect);

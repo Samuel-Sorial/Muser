@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02b2b7ed-fe22-4cab-9cae-5b05a108c1ae",
+            "Value": {
+                "id": "d9c74228-a39c-4c6b-8547-56afe6925667",
+                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0631daca-2433-427b-8dac-5a5b24d7a69c",
             "Value": {
                 "id": "d89aa545-aa86-4e97-a569-fb1d2655d119",
@@ -47,18 +55,34 @@
             }
         },
         {
-            "Key": "09df41d9-dd2a-406e-a2bb-25e22e3ef472",
+            "Key": "0f649b78-0e6b-411d-be10-2d59af360ef3",
             "Value": {
-                "id": "abc88fe4-e178-4cd3-9f69-f3dbe4ebde2a",
-                "resourcePath": "objects\\oMusicPlayer\\oMusicPlayer.yy",
-                "resourceType": "GMObject"
+                "id": "f9013c40-facc-499f-8504-1a235e218779",
+                "resourcePath": "sprites\\sTitle\\sTitle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "14a075b0-268c-4cba-bd3c-87cb205cd688",
+            "Key": "102b6ad0-a12f-4ee5-a00c-245359d4bbf9",
             "Value": {
-                "id": "61f64340-a336-4248-9285-1a524df1dc52",
-                "resourcePath": "sounds\\piano_F\\piano_F.yy",
+                "id": "58559b9b-210b-4d0a-8cd8-ee3164befcc4",
+                "resourcePath": "sounds\\note01\\note01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "109e3bfa-49ee-4358-a683-07b3f247ba34",
+            "Value": {
+                "id": "6c18c089-e8f5-4d48-8e9b-5446ea0d8f44",
+                "resourcePath": "fonts\\fTitle\\fTitle.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "1653f09c-18ab-4da5-aeff-be3c51ecc79e",
+            "Value": {
+                "id": "f45d73d1-63a9-49a8-a81f-e6370f8e61b0",
+                "resourcePath": "sounds\\note20\\note20.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -79,11 +103,43 @@
             }
         },
         {
-            "Key": "2079e6a9-4d99-46fe-b51e-8c3be781f229",
+            "Key": "1965f89b-1aff-4302-ab76-43c9b167fda5",
             "Value": {
-                "id": "6821418c-f591-410a-b212-0362a122888d",
-                "resourcePath": "sprites\\sTile_Idle\\sTile_Idle.yy",
+                "id": "e44d1ab9-cd0b-4424-975e-b620afeeed85",
+                "resourcePath": "sprites\\sCursor\\sCursor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d3c6b48-9b97-474e-8a58-c801ba76fd00",
+            "Value": {
+                "id": "b8c78ce2-67e2-44f6-8e16-a05c3c5bd3b8",
+                "resourcePath": "sounds\\note22\\note22.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2037407b-2042-4b9f-ae51-fd6d72874a56",
+            "Value": {
+                "id": "a782bd75-2804-4682-8a88-7061c7f18002",
+                "resourcePath": "scripts\\scaleGenerator\\scaleGenerator.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "232ca469-0ee6-4fd4-9afc-b52d304d4b35",
+            "Value": {
+                "id": "f44b0b48-ab01-4528-88bc-af6833d17717",
+                "resourcePath": "sprites\\sPlayButton\\sPlayButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "267e1958-36e9-4485-a071-da72aabfdf98",
+            "Value": {
+                "id": "b47ce342-9a08-4baf-bde6-3842d39b2c29",
+                "resourcePath": "objects\\oCursor\\oCursor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -92,6 +148,30 @@
                 "id": "5a9e105e-44fb-43fc-97a0-6eaff162ac5c",
                 "resourcePath": "views\\279138dd-4a9a-431f-b7eb-89c97ae5c046.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "27cbd988-130e-461c-80f6-7df0fc46f7fe",
+            "Value": {
+                "id": "daa6de5c-8c86-4fb4-ba8c-ee2272b70ea7",
+                "resourcePath": "sounds\\note07\\note07.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "295427a6-2ffb-46ac-827f-b0ed17357d29",
+            "Value": {
+                "id": "11d461d2-c12c-4ec8-aef9-6fefcebfff85",
+                "resourcePath": "sounds\\note11\\note11.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3314c2af-5a67-4dfe-8dab-bfb95d652fab",
+            "Value": {
+                "id": "5fb3287f-d3c2-4382-a793-d6511f10c930",
+                "resourcePath": "sounds\\note08\\note08.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -119,19 +199,35 @@
             }
         },
         {
-            "Key": "40d8a1da-2d47-4ee6-b8e9-baf5623dce93",
+            "Key": "3f1302d2-ddd0-4124-b757-71a1de4db7ab",
             "Value": {
-                "id": "aad4925f-df96-40a7-a458-6dc62d62a404",
-                "resourcePath": "sounds\\piano_Gb\\piano_Gb.yy",
+                "id": "7697fe1c-80ad-4cf0-b7e3-04c3a3181e74",
+                "resourcePath": "sounds\\note02\\note02.yy",
                 "resourceType": "GMSound"
             }
         },
         {
-            "Key": "426be874-d5fb-4b7c-b813-8db3b96fb3f7",
+            "Key": "41a480c6-432d-4178-b3f2-087806b50f6b",
             "Value": {
-                "id": "89b2671e-ed58-4a2c-9111-3d30f50f0956",
-                "resourcePath": "sounds\\piano_B\\piano_B.yy",
+                "id": "de519a8e-809e-423e-bd89-04664a3514a9",
+                "resourcePath": "scripts\\checkWin\\checkWin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "477b5efa-e191-47d5-9635-7163eb80d103",
+            "Value": {
+                "id": "321f2b11-bbd1-4e19-b21a-981431383cd5",
+                "resourcePath": "sounds\\note05\\note05.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "48aa072e-d987-46a0-84e9-6b0a7236500e",
+            "Value": {
+                "id": "90845bb1-f5fd-4f1a-8926-ebab62a3421a",
+                "resourcePath": "sprites\\sMenuBackground\\sMenuBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,11 +247,27 @@
             }
         },
         {
+            "Key": "4cb68737-89d3-493c-b111-d74692d2510f",
+            "Value": {
+                "id": "fa04daca-ed2b-4609-964c-77edc1df3965",
+                "resourcePath": "sprites\\sTile\\sTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b0b335f-9990-437e-b38b-47e805a40261",
             "Value": {
                 "id": "933e2edf-5b36-4b92-a044-1802c457b317",
                 "resourcePath": "scripts\\MACRO\\MACRO.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "64619976-0f8f-4556-afb3-4bcbd30de5a5",
+            "Value": {
+                "id": "b18a848d-098b-4cb3-a82d-df21aa2cc7d6",
+                "resourcePath": "sprites\\sTileMask\\sTileMask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -167,27 +279,59 @@
             }
         },
         {
-            "Key": "6d3670ad-36e2-4843-a964-23962ae7c54f",
+            "Key": "6cbfaf2a-855b-462b-8060-9eb138788b6f",
             "Value": {
-                "id": "6127511c-f520-4e0f-8564-ba41f2c052d3",
-                "resourcePath": "sounds\\piano_A\\piano_A.yy",
-                "resourceType": "GMSound"
+                "id": "0e4f70d0-8304-4a1f-8b9c-f0ee39952382",
+                "resourcePath": "objects\\oPlayButton\\oPlayButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
             "Key": "6ec08382-4784-437c-b663-6c6065f9c696",
             "Value": {
                 "id": "63b86040-b22e-4840-8975-8244c8090cd6",
-                "resourcePath": "objects\\oTile_tmp\\oTile_tmp.yy",
+                "resourcePath": "objects\\oTile\\oTile.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "71a71699-bd30-43f6-b968-b9c444eb90b8",
+            "Key": "6efabab4-447b-4ac0-bd5a-f9c46444302a",
             "Value": {
-                "id": "0da9e05d-766d-4a13-8c1d-ce542814bf67",
-                "resourcePath": "sounds\\piano_E\\piano_E.yy",
+                "id": "72b02434-27eb-4552-a08a-0d05ec5404e8",
+                "resourcePath": "sounds\\note04\\note04.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7022e176-a9cf-4987-9a99-d8420d2af9fb",
+            "Value": {
+                "id": "801738ef-a099-4b09-b9f9-57479dfd8c16",
+                "resourcePath": "sounds\\note15\\note15.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "70ff60e0-d9a1-4886-884e-57413174eb69",
+            "Value": {
+                "id": "26474979-5f10-4a0e-952f-610b69789a94",
+                "resourcePath": "sounds\\note19\\note19.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "71a4f9c9-6d5f-4c26-a12e-4dcd5e431a80",
+            "Value": {
+                "id": "3a4bde31-5a70-46b8-8876-f274bf11a80b",
+                "resourcePath": "sounds\\note21\\note21.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7675a45f-9a18-4c89-9ce4-c9ec7be47804",
+            "Value": {
+                "id": "89f06792-ff11-48e6-967a-91a85aef5f25",
+                "resourcePath": "objects\\oProgUnit\\oProgUnit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -196,6 +340,30 @@
                 "id": "afa02dc3-bbcf-4b5c-863c-e4068aea4a19",
                 "resourcePath": "views\\78a6465c-18f0-4680-a59a-e7f850aa46ae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "796acef0-4e33-48a5-9c8c-ea6ff4f9cc81",
+            "Value": {
+                "id": "77c8e9a6-b4f3-469b-977f-e21b56091461",
+                "resourcePath": "sprites\\sProgBar\\sProgBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a3e6f9b-aa80-4bd7-b484-59adc8177e81",
+            "Value": {
+                "id": "adbb20f1-5727-43c3-aadb-e81f798a3784",
+                "resourcePath": "objects\\oTitle\\oTitle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7a678481-bc20-4495-bdba-15b2697b8f98",
+            "Value": {
+                "id": "04c8802e-7f67-487a-bcc4-06fca81051cf",
+                "resourcePath": "sounds\\note17\\note17.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -215,14 +383,6 @@
             }
         },
         {
-            "Key": "86d0cdc6-04ff-4c35-9ddd-7b6ba4fc1a93",
-            "Value": {
-                "id": "c57b8248-b2b6-448c-9f7c-52bdc24c68e7",
-                "resourcePath": "sounds\\piano_Eb\\piano_Eb.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "877158ff-844b-47d6-a36e-8f42d396c234",
             "Value": {
                 "id": "628100a2-e1d9-44e8-b6ba-800116e977dd",
@@ -231,19 +391,35 @@
             }
         },
         {
+            "Key": "87b2b6f2-0c45-4f61-bdf0-31b69a816d43",
+            "Value": {
+                "id": "892c3446-4997-4104-9b8c-0d8a40264654",
+                "resourcePath": "views\\87b2b6f2-0c45-4f61-bdf0-31b69a816d43.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8a913c66-336a-4238-803c-3c218964aaa9",
             "Value": {
                 "id": "66f7adbc-7885-4e46-bf52-85f22b79e455",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rGameSpace\\rGameSpace.yy",
                 "resourceType": "GMRoom"
             }
         },
         {
-            "Key": "92a1c11b-da74-4e2e-9d96-60799dfe8fd4",
+            "Key": "8c65c67a-72cd-482a-835c-4dccd6d93327",
             "Value": {
-                "id": "74d7320f-95a1-41fa-84d6-ef3b2be9b6e0",
-                "resourcePath": "sounds\\piano_G\\piano_G.yy",
+                "id": "ff535eb7-f1c7-4984-9303-427ca825d847",
+                "resourcePath": "sounds\\note16\\note16.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "91ce2dc3-8734-4e7f-9751-87fee509efec",
+            "Value": {
+                "id": "fec80fc1-6617-4604-9c5e-1595cbd2329e",
+                "resourcePath": "objects\\oLevelUI\\oLevelUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,11 +431,59 @@
             }
         },
         {
+            "Key": "964d04a6-2ace-471d-a99f-21ed735c79b4",
+            "Value": {
+                "id": "39fdde71-d023-4d2f-8f7a-7228b20022d4",
+                "resourcePath": "sprites\\sProgUnit\\sProgUnit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99c4ac86-bf5e-405d-87f0-47bab8ea24c7",
+            "Value": {
+                "id": "b69fafde-b645-412a-905d-b1cc77ef364e",
+                "resourcePath": "sounds\\note18\\note18.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9b1eba38-3cae-447b-9c0b-3df6489405d4",
+            "Value": {
+                "id": "5acbdf38-367d-4bed-99a2-1ee5e19adccb",
+                "resourcePath": "sounds\\note12\\note12.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9da9c1ff-0f09-457c-9339-ec1092f8b911",
+            "Value": {
+                "id": "180746af-b3d8-4417-88f0-a0bf63a5a380",
+                "resourcePath": "objects\\oController\\oController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ec22f0a-30b9-4d87-87e4-658072939b0f",
+            "Value": {
+                "id": "b408f87b-14ec-4058-988b-e8a0bf4172c6",
+                "resourcePath": "sounds\\note03\\note03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a14c398b-e606-4647-8925-7c17f2319c19",
             "Value": {
                 "id": "8ba1316b-7ec5-4789-b2d0-5d452bc9a1d8",
                 "resourcePath": "views\\a14c398b-e606-4647-8925-7c17f2319c19.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a8c82c29-9853-4371-a809-d3b8b7b3f5bc",
+            "Value": {
+                "id": "884532e9-15a4-42b7-bf24-10bfacc68b48",
+                "resourcePath": "rooms\\rProfile\\rProfile.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -271,10 +495,26 @@
             }
         },
         {
-            "Key": "b1b4daa6-d482-4eae-a795-9e07edbbab45",
+            "Key": "aba76097-c821-41c5-b2fa-314f21652caf",
             "Value": {
-                "id": "114dfa34-bf1a-4f9d-9a87-4bb9d06152b0",
-                "resourcePath": "sounds\\piano_Bb\\piano_Bb.yy",
+                "id": "449335e9-3fd8-4e5a-9881-3ea375566961",
+                "resourcePath": "rooms\\rLevelSelect\\rLevelSelect.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b2b1f0ee-c965-43e8-94c9-df72a7f441bc",
+            "Value": {
+                "id": "3eaefa16-8447-4b58-8c1e-1d9495f88ecd",
+                "resourcePath": "sprites\\sGameBackground\\sGameBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3715109-d6eb-454e-b990-3beabf7d54d1",
+            "Value": {
+                "id": "ad90b7a1-fe62-46e6-844e-3b63bcf75f4b",
+                "resourcePath": "sounds\\note09\\note09.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -287,11 +527,43 @@
             }
         },
         {
-            "Key": "baec7048-ff7a-491a-a9e9-0404e3c53957",
+            "Key": "bb5d12a8-340e-4ed6-bbca-480481681a9a",
             "Value": {
-                "id": "efd9b598-a3ce-45d1-952c-77d8f61ab23d",
-                "resourcePath": "sounds\\piano_C\\piano_C.yy",
+                "id": "4d32e449-f899-4ceb-98f3-8d94d56c364c",
+                "resourcePath": "views\\bb5d12a8-340e-4ed6-bbca-480481681a9a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bbb5b889-1bb7-4ba0-900b-29677f62e39f",
+            "Value": {
+                "id": "4f40e319-f82f-4119-8528-fc916e85bbae",
+                "resourcePath": "sprites\\sContainer\\sContainer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bd613022-66d1-4f7d-93a0-366e35ed46e8",
+            "Value": {
+                "id": "999a032f-1bf9-43d3-a3d2-3549f94e5391",
+                "resourcePath": "sounds\\note10\\note10.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c102c40c-f844-45ca-b439-46970dd192ac",
+            "Value": {
+                "id": "fc7130f8-4780-4b0b-ae5d-77f31c489129",
+                "resourcePath": "objects\\oProgBar\\oProgBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc227b08-c888-47b4-9825-0c664e38a7f1",
+            "Value": {
+                "id": "33b11365-61cf-4a5f-93de-f6930f64bb4f",
+                "resourcePath": "rooms\\rSettings\\rSettings.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -303,51 +575,51 @@
             }
         },
         {
-            "Key": "d972af8e-4be0-438e-8216-b03bae865183",
+            "Key": "d1c476ba-f180-46d1-840a-e150cb2b63b5",
             "Value": {
-                "id": "cea40a20-2fee-4857-8251-75cad521ebdc",
-                "resourcePath": "sounds\\piano_D\\piano_D.yy",
+                "id": "7fd84d26-47b1-4412-b516-a5a7ead956a5",
+                "resourcePath": "sounds\\note14\\note14.yy",
                 "resourceType": "GMSound"
             }
         },
         {
-            "Key": "e18ebe7f-f557-4a18-8ac5-808393b49af6",
+            "Key": "d4f9fc0a-d6fa-4978-b9d9-1677f3cc5ac1",
             "Value": {
-                "id": "fe7867ce-b65e-45fd-9259-7ce59a12c423",
-                "resourcePath": "sprites\\sContainer\\sContainer.yy",
-                "resourceType": "GMSprite"
+                "id": "867e5761-ee3e-408a-97fd-abdf27dc3d2c",
+                "resourcePath": "scripts\\shuffleScale\\shuffleScale.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d695d250-4adf-4256-b681-4fecc9377c2c",
+            "Value": {
+                "id": "5c6f5b6b-ed96-44fd-8840-56c7750fcbb9",
+                "resourcePath": "views\\d695d250-4adf-4256-b681-4fecc9377c2c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e16ef98d-67ea-4d41-80f2-2c2b094f3a0d",
+            "Value": {
+                "id": "9e44735e-5c68-4dad-8625-974f70ad83eb",
+                "resourcePath": "sounds\\note13\\note13.yy",
+                "resourceType": "GMSound"
             }
         },
         {
             "Key": "e1c0834f-92fa-423c-b3b1-8b1773c5514c",
             "Value": {
                 "id": "8779d233-4aed-4ebb-b36f-4b7095066488",
-                "resourcePath": "rooms\\MainMenu\\MainMenu.yy",
+                "resourcePath": "rooms\\rMainMenu\\rMainMenu.yy",
                 "resourceType": "GMRoom"
             }
         },
         {
-            "Key": "e820148c-d0f3-4c44-9d7f-03db269be585",
+            "Key": "e2410259-c0e4-4fc4-9a3f-c9c03fdea127",
             "Value": {
-                "id": "8fb8f826-a91e-40b3-a85c-0a408fcf092d",
-                "resourcePath": "sounds\\piano_Ab\\piano_Ab.yy",
+                "id": "53c0f125-73bb-4997-850d-f1f4db1b3720",
+                "resourcePath": "sounds\\note23\\note23.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "ea667004-6780-439d-8200-50ded6dfa467",
-            "Value": {
-                "id": "0637d275-8d27-446b-9b5a-3f3b61161e7a",
-                "resourcePath": "sounds\\piano_Db\\piano_Db.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "ebd2d498-e1a0-4520-b52f-2bdee88f35a4",
-            "Value": {
-                "id": "cbf03867-c0c6-419b-929a-2c5595f73f72",
-                "resourcePath": "sprites\\sTile_Moving\\sTile_Moving.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,17 +663,36 @@
             }
         },
         {
+            "Key": "f637d15a-155b-4e30-ad2c-ea080b8ec233",
+            "Value": {
+                "id": "00fa7f3d-ac59-478c-80f6-8b6ec6bde8c5",
+                "resourcePath": "sounds\\note06\\note06.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f8839f12-ff50-4284-b17e-2d0c10046b60",
             "Value": {
                 "id": "323c173a-17c2-4384-9ad1-97ec8f7acc10",
                 "resourcePath": "objects\\oContainer\\oContainer.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "f9cd9684-8c71-4f88-898f-13e25de37db1",
+            "Value": {
+                "id": "cd5a7390-1155-4dd3-94a1-1d1730518fb8",
+                "resourcePath": "sounds\\note00\\note00.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "script_order": [
         "5b0b335f-9990-437e-b38b-47e805a40261",
-        "3dc77a85-4bf8-4f3e-b047-6f78f8377b6b"
+        "3dc77a85-4bf8-4f3e-b047-6f78f8377b6b",
+        "d4f9fc0a-d6fa-4978-b9d9-1677f3cc5ac1",
+        "41a480c6-432d-4178-b3f2-087806b50f6b",
+        "2037407b-2042-4b9f-ae51-fd6d72874a56"
     ],
     "tutorial": ""
 }
